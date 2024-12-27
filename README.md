@@ -20,40 +20,47 @@ This case study addresses these challenges by analyzing critical questions:
 The dataset used for this analysis is the Cleaned Data Science Job Market & Salaries 2024 dataset, sourced from Kaggle. It contains detailed information about job postings in the data science field, including roles, salaries, company ratings, and more.
 
 ### Dataset Columns
-Column Name	Description
-Job Title	The title of the job position being advertised (e.g., Data Scientist, Machine Learning Engineer).
-Company Name	The name of the company offering the job.
-Location	The geographical location where the job is based.
-Job Link	A URL to the job posting for more details.
-Company Rating	A rating out of 5 for the company, typically based on employee reviews.
-Min Salary	The minimum salary offered for the position, extracted from the original salary range.
-Max Salary	The maximum salary offered for the position, extracted from the original salary range.
-Posting Date	The date when the job was posted, converted to an actual date format.
+
+| Column Name      | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| `Job Title`       | The title of the job position being advertised (e.g., Data Scientist, Machine Learning Engineer, Data Analyst). |
+| `Company Name`    | The name of the company offering the job position.                        |
+| `Location`        | The geographical location where the job is based.                         |
+| `Job Link`        | A URL to the job posting for more details.                                |
+| `Company Rating`  | A rating out of 5 for the company, typically based on employee reviews.   |
+| `Min Salary`      | The minimum salary offered for the position, extracted from the original salary range. |
+| `Max Salary`      | The maximum salary offered for the position, extracted from the original salary range. |
+| `Posting Date`    | The date when the job was posted, converted from a relative time format (e.g., 30d+) to an actual date. |
+
 ### Dataset Overview
+
 **Number of Rows**: 485
+
 **Number of Columns**: 8
+
 **Data Source**: Kaggle - Cleaned Data Science Job Market & Salaries 2024
+
 The dataset is well-structured and pre-cleaned, making it ideal for EDA to uncover trends and insights.
 
 ## Tasks
 The analysis process is guided by the following tasks:
 
 1. Data Loading and Inspection
-  - Load the dataset into a data analysis environment.
-  - Inspect the dataset structure, data types, and overall quality.
-  - Identify and address missing values or inconsistencies.
+    - Load the dataset into a data analysis environment.
+    - Inspect the dataset structure, data types, and overall quality.
+    - Identify and address missing values or inconsistencies.
 
 2. Data Cleaning
-  - Handle missing values and duplicates.
-  - Remove unnecessary columns.
-  - Create new columns to enhance data analysis.
+    - Handle missing values and duplicates.
+    - Remove unnecessary columns.
+    - Create new columns to enhance data analysis.
     
 3. Analysis of Most Popular Jobs
-  - Identify the most common job positions in the data science field.
+    - Identify the most common job positions in the data science field.
 
 4. Salary Analysis
-  - Explore salary trends across job roles, companies, and locations.
-  - Examine the relationship between company ratings and salaries.
+    - Explore salary trends across job roles, companies, and locations.
+    - Examine the relationship between company ratings and salaries.
     
 ## Insights and Goals
 Through this analysis, the project aims to provide valuable insights into the data science job market, helping individuals align their skills and expectations with market demand. Employers can leverage these insights to benchmark salaries and identify competitive opportunities. Ultimately, this project seeks to make navigating the data science job market more transparent and data-driven.
